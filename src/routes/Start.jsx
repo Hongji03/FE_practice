@@ -7,6 +7,7 @@ function Start() {
   const navigate = useNavigate();
   const [loggedIn, setLoggedIn] = useState(false);
 
+  console.log("hi");
   useEffect(() => {
     setLoggedIn(isLoggedIn());
   }, []);
